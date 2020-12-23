@@ -28,7 +28,9 @@ const noThis = {
 
 
         simpleModule.functionOne();
-        let tester = simpleModule.functionTwo(667788);
+        let tester = simpleModule.functionTwo("Just some data");
+        console.log("simpleModule output: " + tester);
+        
     }
 };
 

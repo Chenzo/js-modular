@@ -1,7 +1,7 @@
 
 export const simpleModule = (() => {
 
-
+    console.log("simpleModule fires when imported");
     
     const functionOne = function() {
         console.log("here i am");
@@ -9,7 +9,12 @@ export const simpleModule = (() => {
 
     const functionTwo = function(anArg) {
         console.log('functionTwo ' + anArg);
-        return anArg;
+        let adjusted = privateFunction(anArg);
+        return adjusted;
+    }
+
+    const privateFunction = function(theArg) {
+        return theArg + " - adjusted";
     }
 
     return {
