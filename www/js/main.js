@@ -37,14 +37,14 @@ const noThis = {
 
 class primaryClass {
     constructor() {
-      this._Initialize();
-    }
-  
+        this._Initialize();
+    };
+    
     _Initialize() {
         console.log("INTITALIZING");
         console.log(aNumber);
-    }
-}
+    };
+};
 
 
 let _APP = null;
