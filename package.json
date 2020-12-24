@@ -5,11 +5,14 @@
   "main": "index.html",
   "scripts": {
     "start": "http-server ./www",
+    "build": "rollup --config",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "http-server": "^0.12.3"
+    "http-server": "^0.12.3",
+    "rollup": "^2.35.1",
+    "rollup-plugin-uglify": "^6.0.4"
   }
 }
