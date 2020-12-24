@@ -14,8 +14,8 @@ export default [
 		plugins: [
 			//uglify() //Can't handle ES6 classes
 			terser({
-				//sourceMap: true
-			}) //--source-map
+				//sourceMap: true //this uses rollups version
+			}) 
 		]
 		
 	},
