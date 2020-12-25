@@ -50,6 +50,8 @@ class primaryClass {
 let _APP = null;
 
 
+console.log('newversion');
+
 window.addEventListener('DOMContentLoaded', () => {
     console.log("working as intended");
     _APP = new primaryClass(); //classes and this kind of suck?

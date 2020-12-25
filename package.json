@@ -6,6 +6,7 @@
   "scripts": {
     "start": "http-server ./www",
     "build": "rollup --config",
+    "watch": "rollup --config --watch",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
@@ -13,6 +14,7 @@
   "devDependencies": {
     "http-server": "^0.12.3",
     "rollup": "^2.35.1",
+    "rollup-plugin-livereload": "^2.0.0",
     "rollup-plugin-terser": "^7.0.2",
     "rollup-plugin-uglify": "^6.0.4"
   }
