@@ -7,7 +7,7 @@
     "start-old": "http-server ./www",
     "build": "rollup --config",
     "start": "rollup --config --watch",
-    "sass": "node-sass --watch src/scss -o www/css",
+    "sass": "node-sass --source-map true --watch src/scss -o www/css --recursive  --output-style compressed",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",

@@ -1,0 +1,10 @@
+{
+	"version": 3,
+	"file": "base.css",
+	"sources": [
+		"../../src/scss/base.scss",
+		"../../src/scss/modules/_test_mod.scss"
+	],
+	"names": [],
+	"mappings": "ACCA,AAAA,KAAK,AAAC,CACF,KAAK,CAAE,KAAK,CACZ,SAAS,CAAE,IAAI,CAClB,ADDD,AAAA,IAAI,AAAC,CACD,WAAW,CAAE,2BAA2B,CACxC,KAAK,CAAE,IAAI,CACX,gBAAgB,CAAE,IAAI,CACzB,AAGD,AAAA,EAAE,AAAC,CACC,KAAK,CAAE,IAAI,CACX,SAAS,CAAE,IAAI,CAClB"
+}

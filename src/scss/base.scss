@@ -1,4 +1,5 @@
 
+@import "modules/test_mod"; //has to be relative path
 
 body {
     font-family: 'Titillium Web', sans-serif;
@@ -9,4 +10,5 @@ body {
 
 h2 {
     color: blue;
+    font-size: 24px;
 }
