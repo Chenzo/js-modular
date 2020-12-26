@@ -5,7 +5,7 @@ import serve from 'rollup-plugin-serve';
 
 export default [
 	{
-		input: 'www/js/main.js',
+		input: 'src/js/main.js',
 		output: {
 			name: 'mainPackage',
 			file: 'www/js/main.min.js',
